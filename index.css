@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    background-image: url(lion.cms);
+    height: 100vh; /* Full viewport height */
+}
+
+.centered-content {
+    text-align: center;
+}
+
+.centered-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: greenyellow;
+    margin-top:20px;
+}
+
+.centered-content p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-content button {
+    padding: 10px 20px;
+    font-size: 1.5em;
+    background-color: #4545dc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 1300px
+}
+
+.centered-content button:hover {
+    background-color: #555;
+}
+
+#box1{
+    height: 100px;
+    width: 200px;
+    margin-top: 200px;
+    color: white;
+    font-size: 25px;
+}
